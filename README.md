@@ -1,6 +1,4 @@
 # Note Keeper (React + Flask)
-![Video](.assets/video.mp4)
-
 
 
 Home page:
@@ -17,16 +15,16 @@ ___
 ## How to clone and run on your PC
 ### Cloning
 
-To clone, run `git clone https://github.com/m-sabonkudi/Blog-ReactFlask.git`
+To clone, run `git clone https://github.com/m-sabonkudi/ReactFlask-NoteKeeper.git`
 
 ___
 ### Running on PC
 
-First, go into the project directory `cd Blog-ReactFlask`
+First, go into the project directory `cd ReactFlask-NoteKeeper`
 
 ___
 #### Set up Flask
-Create a new virtual environment: `cd flask` -> `python -m venv venv` (windows) or `python3 -m venv venv` (mac)
+Create a new virtual environment: `cd server` -> `python -m venv venv` (windows) or `python3 -m venv venv` (mac)
 
 You should now have a folder named venv in your flask directory containing the virtual environment.
 
@@ -36,11 +34,11 @@ Install required python libraries: `pip install -r requirements.txt` (windows) o
 
 ___
 #### Set up React
-Install react dependencies: `cd react` -> `npm install`
+Install react dependencies: `cd client` -> `npm install`
 
 ___
 #### Run Flask
-`python main.py` (windows) or `python3 main.py` (mac)
+`python app.py` (windows) or `python3 app.py` (mac)
 
 ___
 #### Run React
